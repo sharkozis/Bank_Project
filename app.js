@@ -1,5 +1,4 @@
-const submitButton = document.getElementById('submit-button');
-submitButton.addEventListener('click',function(){
+document.getElementById('submit-button').addEventListener('click',function(){
 
     // for getting user Email address
     const userEmail = document.getElementById('user-email');
